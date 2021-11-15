@@ -118,8 +118,8 @@ margin-top: 20px;
     width: 35%;
     height: 70vh;
     margin: 20px 30px 10px 400px;
-    box-shadow:3px 3px 3px 3px turquoise;
-    background-color: rgb(223, 132, 21);
+    box-shadow:3px 3px 3px 3px #757c7b;
+    background-color: rgb(224, 220, 215);
 }
 .signup-form h2{
     text-align: center;
@@ -132,20 +132,16 @@ margin-top: 20px;
     box-shadow:3px 3px 3px 3px violet;
 }
 .aboutus-form{
-    width: 100%;
+    width: 1o0%;
     height: 130vh;
-    background-color:white;
+    background-color: white;
+
 
 }
 .aboutus-form h1{
-    text-align: center;
+    margin-left: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.aboutus-form img{
-    width: 60px;
-    height: 40px;
-    margin-left: 300px;
-    margin-top: 100px;
+    margin-left: 60px;
 }
 .aboutus-form p{
     margin-left: 30px;
@@ -156,27 +152,48 @@ margin-top: 20px;
 .aboutus-form ul{
     margin-left: 200px;
     margin-top: 30px;
+    margin-bottom: 20px;
 }
-.aboutus-form label{
+ .aboutus-form label{
     padding: 40px 20px;
     font-size: 30px;
     margin-left: 60px;
 }
-.aboutus-form select{
+.aboutus-form ul{
     margin-top: 30px;
     margin-left:80px ;
     
 }
-.contact h2{
-    text-align: center;
+.aboutus-form h3{ 
+    margin-left: 60px;
 
+}
+.contact{
+    background-color: rgb(182, 172, 172);
+    width: 40%;
+    height: 80vh;
+    margin-left: 300px;
+}
+.contact h2{
+text-align: center;
+
+}
+.contact input{
+    margin-left: 30px;
+    margin-bottom: 40px;
+    height: 30px;
+}
+form {
+    display: block;
+    margin-top: 0em;
+    margin-block-end: 1em;
 }
 .signin{
     margin-left: 400px;
     margin-top: 100px;
     width: 40%;
     height: 45vh;
-    background-color:rgb(36, 216, 36);
+    background-color:white;
     padding-top: 30px;
 }
 .signin button{
@@ -189,4 +206,8 @@ margin-top: 20px;
     padding-left: 20px;
     width: 30%;
     height: 5vh;
+}
+.img{
+    width: 99%;
+    height: 55vh;
 }
